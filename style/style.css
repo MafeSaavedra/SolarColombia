@@ -1,0 +1,11 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'quicksand', sans-serif;
+    background-color: #000000f1;
+    color: antiquewhite
+}

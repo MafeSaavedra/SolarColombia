@@ -1,0 +1,37 @@
+nav {
+    background-color: #000000e2;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: antiquewhite;
+    /* Color de texto de los enlaces */
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: color 0.6s ease;
+
+}
+
+.logo {
+    padding: 0;
+
+}
+
+nav ul li a:hover {
+    color: #256ccc;
+    transform: scale (1.1);
+    font-weight: 700;
+}

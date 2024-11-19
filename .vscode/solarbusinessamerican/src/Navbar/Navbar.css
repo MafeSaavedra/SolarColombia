@@ -1,0 +1,166 @@
+.Nav-back {
+    background-color: #1c1b1b;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.822);
+
+
+}
+
+
+.boton-wh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Asegura centrado vertical */
+    height: 100%;
+    /* Si el contenedor tiene una altura definida */
+}
+
+.boton-wh button {
+    padding: 12px;
+    /* Otros estilos del botón */
+}
+
+.ctn {
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-template-rows: 1fr;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#ctn-links {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px;
+
+}
+
+.navbar-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    margin: 0 12px;
+    margin-bottom: 15px;
+
+
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    transition: all 0.3s;
+}
+
+.navbar-links a:hover {
+    font-weight: 600;
+    font-size: 20.5px;
+    color: #2a5da0;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8);
+    /* Sombra iluminada */
+    /* Suaviza la transición */
+}
+
+.logohome:hover {
+    /* //Sombra iluminada (desplazamiento en x, desplazamiento en y, grosor de la sombra, color) */
+    filter: drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.8));
+}
+
+#ctn-logo {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.logohome {
+
+    width: 60px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 850px) {
+
+    .Nav-back {
+        background-color: #252525;
+        background-image: url('');
+    }
+
+    .navbar-links ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .ctn {
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        margin: 0 auto;
+        padding: 15px;
+
+    }
+
+    .ctn-logo {
+        order: -1;
+    }
+
+    #ctn-links {
+        padding: 0;
+    }
+
+    #ctn-links li {
+        margin: 5px;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-links.active {
+        display: flex;
+
+        /* Mostramos el menú cuando está activo */
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        order: -1;
+        padding: 10px;
+
+    }
+
+    .hamburger .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #ffffff;
+        margin: 2px;
+        justify-content: center;
+    }
+
+}

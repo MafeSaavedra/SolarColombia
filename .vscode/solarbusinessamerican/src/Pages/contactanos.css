@@ -53,7 +53,7 @@ button {
 /* Titulo principal */
 .titulo h1 {
     margin-top: 20px;
-    color: #315241;
+    background-color: #1c1b1b;
     font-size: 50px;
     text-align: center;
 }
@@ -87,7 +87,7 @@ button {
 }
 
 .textoTitulo h1 {
-    color: #315241;
+    background-color: #1c1b1b;
     font-size: 40px;
 }
 
@@ -135,7 +135,7 @@ textarea {
     padding-left: 5px;
     height: 30px;
     border-radius: 5px;
-    border: 1px solid #315241;
+    background-color: #1c1b1b;
 }
 
 /* tamaño de alto de la caja de texto de contenido del mensaje */
@@ -151,10 +151,8 @@ textarea {
     padding: 0 7px;
     height: 220px;
     border-radius: 5px;
-    border: 1px solid #315241;
+    border: 1px solid #303030;
 }
-
-
 
 /* Estilos para la sección de ubicación y datos de la empresa
     El estilo principal del contenedor información es el mismo que el de formulario
@@ -174,7 +172,7 @@ textarea {
     background-color: white;
     border-radius: 30px;
     padding: 20px;
-    border: 1px solid #315241;
+    border: 1px solid #202020;
     text-align: left;
 
 }
@@ -406,22 +404,13 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
-footer {
-    background-color: #315241;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    grid-row: 2 / 3;
-
-}
-
 /* Cinta de eslogan  */
 .cinta-slogan {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #426d57cf;
+    background-color: #1c1b1b;
     color: white;
     height: 45px;
     text-align: center;
